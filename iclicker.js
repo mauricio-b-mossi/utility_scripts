@@ -2,7 +2,7 @@
     * Enters clicker answers automatically.
     * @param {string} lowerCaseOption - Enter answer letter in lowercase.
     */
-function selectOption(lowerCaseOption, deltaTimeMilli) {
+function selectOption(lowerCaseOption = 'a', deltaTimeMilli = 5000) {
     console.log("To option selected page.")
 
     const interval = setInterval(function() {
